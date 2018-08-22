@@ -1,4 +1,4 @@
-# PGschedule2.0
-# PGschedule2.0
-"# PGschedule2.0" 
-"# PGschedule2.0" 
+Porter Gaud Schedule 2.0
+
+An updated PG schedule app.
+
