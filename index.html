@@ -13,14 +13,30 @@
                 cursor: pointer;
                 font-weight: bold;
                 font-size: 150%;
-                background: #b70303;
+                background: #6d0006;
                 color: #fff;
                 border: 1px solid #b70303;
                 border-radius: 10px;
             }    
             input.Lunch:hover {
                 color: #fff;
-                background: #f21a1a;
+                background: #960a0b;
+                border: 1px solid #fff;
+            }    
+            input.Announcements {
+                width: 250px;
+                padding: 20px;
+                cursor: pointer;
+                font-weight: bold;
+                font-size: 150%;
+                background: #6d0006;
+                color: #fff;
+                border: 1px solid #b70303;
+                border-radius: 10px;
+            }    
+            input.Announcements:hover {
+                color: #fff;
+                background: #960a0b;
                 border: 1px solid #fff;
             }    
             button{
@@ -53,17 +69,36 @@
                 background-color: #dddddd;
             }    
             th {
-                background-color: #b70303;
+                background-color: #6d0006;
                 color: white;
             }    
+            hr { 
+                background-color: #a9a9aa;
+                border-color: #a9a9aa;
+                display: block;
+                margin-top: 0.25em;
+                margin-bottom: 0.25em;
+                margin-left: auto;
+                margin-right: auto;
+                border-style: inset;
+                border-width: 1px;
+            } 
+            .nav li {
+                color:#5d9afc;
+                display: inline-block;
+                font-size: 15px;
+                padding: 15px;
+            }
         </style>
     </head>
     <body>
         <img src="PGOfficial.jpg" alt="Porter-Gaud" width="210" height="90" class="center">
+    <br>
+    <br>
         <table align="center">
             <tr>
                 <th>Period</th>
-                <th>Time</th>
+                <th>Time</th>  
             </tr>
             <tr>
                 <td>FILLER</td>
@@ -106,6 +141,18 @@
         <br>    
         <form align="center">
             <input class="Lunch" type="button" value="Lunch" onclick="window.location.href='http://myschooldining.com/portergaud#homepage_menus'" />
-        </form>        
+            <input class="Announcements" type="button" value="Announcements" onclick="window.location.href='https://www.portergaud.edu/faculty-member/daily-announcements'" />
+        </form>
+        <br>                   
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <ul class="nav" align="center">
+            <li><a href="https://github.com/Bawllp/PGschedule2.0">Project</a></li>
+            <li><a href="http://schedule.portergaud.edu/manage/">Manage</a></li>
+        </ul>
+
     </body>
 </html>
